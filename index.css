@@ -1,0 +1,89 @@
+body {
+    background-color: azure;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    background-color: khaki;
+    height: 500px;
+    width: 300px;
+    padding: 10px;
+}
+
+.output_window {
+    background-color: rgb(25, 20, 10);
+    height: 100px;
+    padding-right: 10px;
+    color: aliceblue;
+    font-size: xx-large;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.keypad {
+    background-color: goldenrod;
+    margin-top: 10px;
+    height: 390px;
+    display: flex;
+    flex-flow: row-reverse wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers {
+    height: fit-content;
+    width: 220px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.numbers > button {
+    height: 60px;
+    width: 60px;
+    font-size: xx-large;
+    background-color:chocolate;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operations {
+    width: 80px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.operations > button {
+    height: 60px;
+    width: 60px;
+    font-size: xx-large;
+    background-color:chocolate;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AC {
+    width: fit-content;
+    display: flex;
+
+}
+.AC > button {
+    height: 60px;
+    width: 135px;
+    font-size: x-large;
+    background-color:chocolate;
+    padding: 2px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
